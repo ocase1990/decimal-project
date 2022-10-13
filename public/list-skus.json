@@ -1,0 +1,28 @@
+{
+  "skus": [
+    {
+      "id": "00001",
+      "name": "Implementation Services",
+      "is_deferred": true,
+      "schedule": {
+        "duration": 3,
+        "units": "month"
+      }
+    },
+    {
+      "id": "00002",
+      "name": "Annual Software License",
+      "is_deferred": true,
+      "schedule": {
+        "duration": 12,
+        "units": "month"
+      }
+    },
+    {
+      "id": "00003",
+      "name": "One Time Processing Fee",
+      "is_deferred": false
+    }
+  ],
+  "total": 3
+}

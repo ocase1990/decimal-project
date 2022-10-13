@@ -1,0 +1,48 @@
+{
+  "workflows": [
+    {
+      "id": "dcfb918d-befa-411d-adda-58f3eefd3e07",
+      "name": "Deferred Revenue Schedule",
+      "description": "Process an invoice and build the deferred revenue schedule",
+      "inputs": [
+        {
+          "name": "invoice",
+          "type": "invoice",
+          "required": true
+        },
+        {
+          "name": "dryrun",
+          "type": "boolean",
+          "required": false
+        }
+      ],
+      "steps": [
+        {
+          "id": "573c0757-8810-4b15-860b-1611fc349ce3",
+          "name": "validate invoice",
+          "order": 1,
+          "notify_on_error": true,
+          "notify_on_completion": false,
+          "requires_response": false
+        },
+        {
+          "id": "7f1c5e5e-567f-4743-8463-a37a23af76d9",
+          "name": "generate deferred revenue schedule",
+          "order": 2,
+          "notify_on_error": true,
+          "notify_on_completion": false,
+          "requires_response": false
+        },
+        {
+          "id": "77d38c71-c969-4439-8857-75969e1b84df",
+          "name": "write schedule to source",
+          "order": 3,
+          "notify_on_error": true,
+          "notify_on_completion": true,
+          "requires_response": true
+        }
+      ]
+    }
+  ],
+  "total": 1
+}

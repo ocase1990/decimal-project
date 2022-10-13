@@ -1,0 +1,92 @@
+{
+  "invoices": [
+    {
+      "id": "ee654522-8f2f-4363-b47d-6ab6037fa0aa",
+      "tenant_id": "c24aec68-7cd0-456b-8d4c-faf95914654f",
+      "account_id": "a8d3a0f1-f454-4f50-bf7e-8276e4bc45b5",
+      "created_date": "2022-10-06T13:36:31+00:00",
+      "line_items": [
+        {
+          "sku": "00001",
+          "quantity": 1,
+          "amount": 10000,
+          "start_date": "2022-10-01"
+        },
+        {
+          "sku": "00002",
+          "quantity": 1,
+          "amount": 120000,
+          "start_date": "2022-10-01"
+        }
+      ]
+    },
+    {
+      "id": "eaf9ebf2-6bac-4f37-b521-f34f61767875",
+      "tenant_id": "c24aec68-7cd0-456b-8d4c-faf95914654f",
+      "account_id": "a2ed7f7d-8c18-4a7b-ae26-0626b44d2da7",
+      "created_date": "2022-08-02T18:36:31+00:01",
+      "line_items": [
+        {
+          "sku": "00001",
+          "quantity": 1,
+          "amount": 12000,
+          "start_date": "2022-09-01"
+        },
+        {
+          "sku": "00002",
+          "quantity": 1,
+          "amount": 165000,
+          "start_date": "2022-09-01"
+        },
+        {
+          "sku": "00003",
+          "quantity": 1,
+          "amount": 500,
+          "start_date": "2022-09-01"
+        }
+      ]
+    },
+    {
+      "id": "6d58bc11-9439-4721-a558-b61cc93b4e6f",
+      "tenant_id": "c24aec68-7cd0-456b-8d4c-faf95914654f",
+      "account_id": "26b881c9-a362-4fb1-8c1c-ec1d4e99fd4b",
+      "created_date": "2022-06-08T13:36:31+00:00",
+      "line_items": [
+        {
+          "sku": "00001",
+          "quantity": 1,
+          "amount": 3000,
+          "start_date": "2022-07-01"
+        },
+        {
+          "sku": "00002",
+          "quantity": 1,
+          "amount": 42000,
+          "start_date": "2022-07-01"
+        }
+      ]
+    },
+    {
+      "id": "05c6da2e-431c-404b-ab04-a53a16a9fe09",
+      "tenant_id": "c24aec68-7cd0-456b-8d4c-faf95914654f",
+      "account_id": "573c0757-8810-4b15-860b-1611fc349ce3",
+      "created_date": "2022-04-02T12:36:31+00:00",
+      "created_date2": "1997-07-16T19:20:30+01:00",
+      "line_items": [
+        {
+          "sku": "00001",
+          "quantity": 1,
+          "amount": 1000,
+          "start_date": "2022-05-01"
+        },
+        {
+          "sku": "00002",
+          "quantity": 1,
+          "amount": 15000,
+          "start_date": "2022-05-01"
+        }
+      ]
+    }
+  ],
+  "total": 4
+}

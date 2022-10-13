@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "id": "e678529b-b5dd-4f8e-b438-967a63a90291",
+      "workflow": "dcfb918d-befa-411d-adda-58f3eefd3e07",
+      "inputs": [
+        {
+          "name": "invoice",
+          "value": "ee654522-8f2f-4363-b47d-6ab6037fa0aa"
+        },
+        {
+          "name": "dryrun",
+          "value": false
+        }
+      ],
+      "output": [
+        {
+          "step": "573c0757-8810-4b15-860b-1611fc349ce3",
+          "results": {
+            "valid": true
+          }
+        },
+        {
+          "step": "7f1c5e5e-567f-4743-8463-a37a23af76d9",
+          "results": {
+            "schedules": [
+              {
+                "sku": "00001",
+                "schedule": [
+                  {
+                    "date": "2022-10-01",
+                    "amount": 3333
+                  },
+                  {
+                    "date": "2022-11-01",
+                    "amount": 3333
+                  },
+                  {
+                    "date": "2022-12-01",
+                    "amount": 3334
+                  }
+                ]
+              },
+              {
+                "sku": "00002",
+                "schedule": [
+                  {
+                    "date": "2022-10-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2022-11-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2022-12-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-01-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-02-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-03-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-04-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-05-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-06-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-07-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-08-01",
+                    "amount": 10000
+                  },
+                  {
+                    "date": "2023-09-01",
+                    "amount": 10000
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "step": "77d38c71-c969-4439-8857-75969e1b84df",
+          "results": {
+            "complete": true
+          }
+        }
+      ]
+    }
+  ],
+  "total": 1
+}

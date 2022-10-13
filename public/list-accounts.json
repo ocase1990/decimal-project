@@ -1,0 +1,21 @@
+{
+  "accounts": [
+    {
+      "id": "a8d3a0f1-f454-4f50-bf7e-8276e4bc45b5",
+      "name": "Lumon Industries"
+    },
+    {
+      "id": "a2ed7f7d-8c18-4a7b-ae26-0626b44d2da7",
+      "name": "Los Pollos Hermanos"
+    },
+    {
+      "id": "26b881c9-a362-4fb1-8c1c-ec1d4e99fd4b",
+      "name": "Soup Kitchen International"
+    },
+    {
+      "id": "573c0757-8810-4b15-860b-1611fc349ce3",
+      "name": "Crusty Crab"
+    }
+  ],
+  "total": 4
+}
