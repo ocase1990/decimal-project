@@ -12,6 +12,7 @@ import Table from "./components/Table";
 import { formatData } from "../../helpers/formatInvoiceData";
 import InvoiceDetails from "./components/invoice-details";
 import WorkflowDetails from "./components/workflow-details";
+import { CommonButton } from "../../common/components/common-button";
 
 export default function Dashboard({ userType }) {
   const [invoices, setInvoices] = useState({});
@@ -33,7 +34,7 @@ export default function Dashboard({ userType }) {
       setShowDetails(true);
     };
 
-    return <Button label="Details" onClick={() => handleButtonClick()} />;
+    return <CommonButton title="Details" onClick={() => handleButtonClick()} />;
   };
 
   const handleWorkflowDetailButtonClick = (workflow) => {
@@ -127,10 +128,10 @@ export default function Dashboard({ userType }) {
           <div>
             {workflows?.map((workflow) => {
               return (
-                <Button
-                  key={workflow.id}
-                  label={workflow.name}
+                <CommonButton
+                  title={workflow.name}
                   onClick={() => handleWorkflowDetailButtonClick(workflow)}
+                  key={workflow.id}
                 />
               );
             })}
@@ -146,4 +147,5 @@ const DashboardWrapper = styled(Box)`
   padding-right: 10px;
   border: 4px solid #ee5940;
   padding-bottom: 20px;
+  background-color: #f2ebe5;
 `;

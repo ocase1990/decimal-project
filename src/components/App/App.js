@@ -4,6 +4,7 @@ import { Button } from "grommet";
 import Dashboard from "../Dashboard/Dashboard";
 import Login from "../Login/Login";
 import styled from "styled-components";
+import { CommonButton } from "../../common/components/common-button.jsx";
 
 function App() {
   const [userType, setUserType] = useState("");
@@ -16,7 +17,8 @@ function App() {
     <AppWrapper>
       <StyledTop>
         <StyledTitle>Decimal</StyledTitle>
-        <Button label="Logout" onClick={() => setUserType("")} />
+        <CommonButton title={"Logout"} onClick={() => setUserType("")} />
+        {/* <StyledButton label="Logout" onClick={() => setUserType("")} /> */}
       </StyledTop>
 
       <BrowserRouter>

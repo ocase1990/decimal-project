@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Layer, Button, Box } from "grommet";
 import styled from "styled-components";
 import { getWorkflowResult } from "../../../api/services";
+import { CommonButton } from "../../../common/components/common-button";
 
 export default function InvoiceDetails({
   currentDetailedInvoice,
@@ -73,8 +74,8 @@ export default function InvoiceDetails({
         <div>
           <WorkflowResultsTitleBox>
             <div>Workflow Results</div>
-            <ExpandButton
-              label={expandSymbol}
+            <CommonButton
+              title={expandSymbol}
               onClick={() => {
                 handleExpandButtonClick();
               }}
@@ -105,8 +106,7 @@ export default function InvoiceDetails({
           )}
         </div>
       )}
-
-      <Button label="close" onClick={() => setShowDetails(false)} />
+      <CommonButton title="Close" onClick={() => setShowDetails(false)} />
     </StyledLayer>
   );
 }
@@ -123,7 +123,7 @@ const WorkflowResultsTitleBox = styled(Box)`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin-bottom: 20px;
 `;
 

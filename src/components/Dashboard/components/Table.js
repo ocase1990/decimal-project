@@ -19,7 +19,6 @@ export default function Table({ columns, data }) {
   );
 
   /* 
-    Render the UI for your table
     - react-table doesn't have UI, it's headless. We just need to put the react-table props from the Hooks, and it will do its magic automatically
   */
 
