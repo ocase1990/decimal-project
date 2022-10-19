@@ -35,9 +35,9 @@ export default function Login({ setUserType }) {
           />
         </Keyboard>
       </label>
-      <Box>
+      <StyledSubmitButtonBox>
         <CommonButton title="Submit" onClick={(e) => handleSubmit(e)} />
-      </Box>
+      </StyledSubmitButtonBox>
     </LoginWrapper>
   );
 }
@@ -50,4 +50,7 @@ const LoginWrapper = styled.div`
   flex-direction: column;
   align-items: start;
   padding: 80px;
+`;
+const StyledSubmitButtonBox = styled(Box)`
+  margin-top: 2px;
 `;
