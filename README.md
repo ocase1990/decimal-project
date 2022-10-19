@@ -2,7 +2,7 @@
 
 ## Bash
 
-cd decimal-project
+cd decimal-project  
 yarn
 
 ## Open Additional Bash
